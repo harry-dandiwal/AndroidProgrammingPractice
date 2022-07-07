@@ -1,0 +1,8 @@
+1. Drawer Layout
+2. Remove ActionBar (res>values>themes> and then change the value to no action bar"
+3. Add Toolbar (on drawer layout)
+4. create menus (on NavigationView)
+5. create headerLayout (on NavigationLayout)
+6. create NavigationView (on drawerLayout) and set menus and headerlayout on it
+7. get ids of all layouts important in this process
+8. create actionBarDrawerToggle

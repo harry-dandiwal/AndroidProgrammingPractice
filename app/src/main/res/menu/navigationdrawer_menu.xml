@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=" Profile"
+        android:id="@+id/nd_profile"
+        android:icon="@drawable/bottmonav_profile"/>
+
+    <item android:title=" Message"
+        android:id="@+id/nd_msg"
+        android:icon="@drawable/tablayout_chat"/>
+
+    <item android:title=" Settings"
+        android:id="@+id/nd_setting"
+        android:icon="@drawable/bottomnav_settings"/>
+
+</menu>
