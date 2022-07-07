@@ -1,4 +1,4 @@
-package com.practice.fragmentsprac;
+package com.practice.fragmentsprac.FragmentsBasics;
 
 import android.os.Bundle;
 
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.practice.fragmentsprac.R;
 
 
 public class Login extends Fragment {

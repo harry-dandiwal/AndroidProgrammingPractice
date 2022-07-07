@@ -14,7 +14,11 @@
         android:theme="@style/Theme.FragmentsPrac"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Viewpager_FragmentsStateAdaptor.ViewPagerPrac"
+            android:exported="true" />
+
+        <activity
+            android:name=".FragmentsBasics.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

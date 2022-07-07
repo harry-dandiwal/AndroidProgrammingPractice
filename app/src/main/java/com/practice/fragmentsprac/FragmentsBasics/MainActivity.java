@@ -1,4 +1,4 @@
-package com.practice.fragmentsprac;
+package com.practice.fragmentsprac.FragmentsBasics;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
@@ -6,6 +6,9 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.widget.FrameLayout;
+
+import com.practice.fragmentsprac.FragmentsBasics.Login;
+import com.practice.fragmentsprac.R;
 
 public class MainActivity extends AppCompatActivity {
 
