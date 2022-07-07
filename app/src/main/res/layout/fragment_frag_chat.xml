@@ -1,18 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#86E9DF"
-    tools:context="com.practice.fragmentsprac.Viewpager_FragmentsStateAdaptor.FragOne"
+    tools:context=".TabLayout.FragChat"
     android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello from frag one"
-
+        android:text="Chat"
         android:textStyle="bold"
-        android:textSize="75sp"/>
+        android:textSize="50sp"
+        android:layout_gravity="start"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
